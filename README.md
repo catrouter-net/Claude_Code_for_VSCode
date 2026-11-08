@@ -30,7 +30,7 @@
 
 ## **配置“CATROUTER中转API”**
 
-实际有三种登录方式，本质就是要通过认证你才能使用，点击选项卡会提示你跳转到对应的说明文档，如下图所示： ![VSCode插件Claude Code for VSCode配置AI中转与详细使用教程](https://pic.imgdd.cc/item/6982de37d9c88c98816cb1fa.png)   我们其实可以直接配置API KEY、BASE URL，比如接入CATROUTER中转API模型，点这个插件的设置（齿轮）进去，然后找到 在 settings.json 中编辑 点进去，如下图所示： BASE URLCATROUTER中转API官网：`https://api.catrouter.net` ![VSCode插件Claude Code for VSCode配置AI中转与详细使用教程](https://pic.imgdd.cc/item/6982de19d9c88c98816cb1f1.png) 添加如下内容，**保存 settings.json 后**，先退出 VSCode，再重新进入。
+实际有三种登录方式，本质就是要通过认证你才能使用，点击选项卡会提示你跳转到对应的说明文档，如下图所示： ![VSCode插件Claude Code for VSCode配置AI中转与详细使用教程](https://pic.imgdd.cc/item/6982de37d9c88c98816cb1fa.png)   我们其实可以直接配置API KEY、BASE URL，比如接入CATROUTER中转API模型，点这个插件的设置（齿轮）进去，然后找到 在 settings.json 中编辑 点进去，如下图所示： BASE URLCATROUTER中转API官网：`https://catrouter.net` ![VSCode插件Claude Code for VSCode配置AI中转与详细使用教程](https://pic.imgdd.cc/item/6982de19d9c88c98816cb1f1.png) 添加如下内容，**保存 settings.json 后**，先退出 VSCode，再重新进入。
 
 ```
 {
@@ -45,7 +45,7 @@
 
 "name": "ANTHROPIC_BASE_URL",
 
-"value": "https://api.catrouter.net"
+"value": "https://catrouter.net"
 
 },
 ```
@@ -143,4 +143,4 @@ rm -rf ~/.vscode/globalStorage/anthropic.claude-code
 
 VSCode Claude Code 插件、ClaudeCode 中转API、settings.json 配置、ANTHROPIC_BASE_URL 写法、Claude Opus 5.5 接入、Claude Sonnet 5.5 接入、Claude Haiku 5.5、Claude Fable 5、AI编程工具推荐、国内直连免魔法、可试用免费额度、稳定靠谱好用、低延迟高并发、500+模型聚合平台。
 
-官方入口：[CatRouter 中转API](https://api.catrouter.net)
+官方入口：[CatRouter 中转API](https://catrouter.net)
