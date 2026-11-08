@@ -1,4 +1,4 @@
-# VSCode插件Claude Code for VSCode配置CATROUTER中转API详细教程_AI编程工具推荐_ClaudeCode中转API推荐
+# VSCode 插件 Claude Code 配置 CatRouter 中转 API 详细教程｜Claude Opus 5.5 / Sonnet 5.5 / Haiku 5.5 接入（AI 编程工具推荐）
 
 在 VS Code 中使用 **Claude Code**，意味着你可以把大模型的编码能力真正“嵌入”到日常开发流程中，而不是停留在浏览器里来回复制代码。Claude Code for VSCode 是 Anthropic 官方推出的 VS Code 扩展，它为 Claude Code 提供了原生的图形化交互界面，能够直接在 IDE 内完成代码理解、修改、规划和审查，是目前在 VS Code 中使用 Claude Code 的**推荐方式**。
  <img width="1474" height="759" alt="image" src="https://github.com/user-attachments/assets/f16d6484-2ae0-4fa9-83cc-81c36f1f8668" />
@@ -7,6 +7,9 @@
 ![VSCode插件Claude Code for VSCode配置AI中转与详细使用教程](https://pic.imgdd.cc/item/6982e22fd9c88c98816cb371.webp)
 
 在本教程中，我们将从 **Claude Code for VSCode 的安装与基础使用** 开始，逐步讲清楚扩展的核心功能和使用方式；然后重点讲解国内用户和企业环境中最常见、也是最容易踩坑的部分——**如何配置“AI 中转 / CATROUTER中转 API”**，包括不同登录与接入方案的区别、settings.json 的正确写法，以及常见问题的排查方法，帮助你在 VS Code 中稳定、顺畅地使用 Claude Code 完成真实开发任务。
+
+> **2026 年 11 月更新**：CatRouter 中转API 已同步 Claude 5.5 全系——**Opus 5.5**（100 万 token 上下文，成本较 Opus 5 低约 40%）、**Sonnet 5.5**（Terminal-Bench 4.0 达 70.6%）、**Haiku 5.5**（高并发低成本），以及面向公众开放的旗舰 **Fable 5**（Mythos 级）。插件里只需替换 `ANTHROPIC_BASE_URL` 与 `ANTHROPIC_AUTH_TOKEN`，模型名按需切换即可，国内直连免魔法、可试用、稳定靠谱好用。
+
 
 
 
@@ -134,5 +137,10 @@ Spark 图标在您打开文件时出现在编辑器工具栏（编辑器右上�
 ```
 rm -rf ~/.vscode/globalStorage/anthropic.claude-code
 ```
+---
 
- 
+## 长尾关键词与选型速查
+
+VSCode Claude Code 插件、ClaudeCode 中转API、settings.json 配置、ANTHROPIC_BASE_URL 写法、Claude Opus 5.5 接入、Claude Sonnet 5.5 接入、Claude Haiku 5.5、Claude Fable 5、AI编程工具推荐、国内直连免魔法、可试用免费额度、稳定靠谱好用、低延迟高并发、500+模型聚合平台。
+
+官方入口：[CatRouter 中转API](https://api.catrouter.net)
